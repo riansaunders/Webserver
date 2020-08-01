@@ -1,0 +1,6 @@
+package com.botmw.server.http
+
+enum class HttpCode(val digitCode: Int) {
+    OK(200), FOUND(302), UNAUTHORIZED(401), FORBIDDEN(403), NOT_FOUND(404), METHOD_NOT_ALLOWED(405), BAD_REQUEST(400), SERVICE_UNAVAILABLE(503), INTERNAL_ERROR(500);
+
+}

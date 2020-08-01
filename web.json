@@ -1,0 +1,18 @@
+{
+  "script-root": "/",
+  "host": "192.168.86.31",
+  "port": 80,
+  "database": {
+    "host": "localhost",
+    "port": 27018
+  },
+  "routing": {
+    "auto-resolve-html": true,
+    "auto-resolve-index": true,
+    "root": "riansaunders.com/",
+    "exclude": [
+      "^(.+)(\\.(cfg|java|groovy|class|groovy|jar|xml|ini))$"
+    ],
+    "configs": []
+  }
+}
