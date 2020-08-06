@@ -14,7 +14,7 @@ object Start {
         val server: HttpServer<*> = object : HttpServer<Client?>(JSONObject(
     """{
                       "script-root": "/",
-                      "host": "192.168.86.31",
+                      "host": "",
                       "port": 80,
                       "database": {
                         "host": "localhost",
@@ -23,7 +23,7 @@ object Start {
                       "routing": {
                         "auto-resolve-html": true,
                         "auto-resolve-index": true,
-                        "root": "/Users/rian/Documents/riansaunders.com/",
+                        "root": "",
                         "exclude": [
                           "^(.+)(\\.(cfg|java|groovy|class|groovy|jar|xml|ini))$"
                         ],
